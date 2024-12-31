@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ItemStackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "package": "ru.kochkaev.utils.shadowtooltip.mixin",
+  "plugin": "ru.kochkaev.utils.shadowtooltip.mixin.MixinPlugin"
+}
